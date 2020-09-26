@@ -1,0 +1,15 @@
+{application, x509redate,
+ [{description, "redate X509 certificates"},
+  {vsn, git},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    public_key
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
